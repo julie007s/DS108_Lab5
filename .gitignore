@@ -6,7 +6,3 @@ venv/
 
 *.pyc
 
-outputs/*.png
-outputs/*.csv
-
-data/processed/*.csv
