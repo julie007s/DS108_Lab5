@@ -76,14 +76,17 @@ Mỗi file annotator phải có format:
 ## Công thức tính toán
 
 **Chỉ số Cohen’s Kappa:**
+
 $$
 \kappa = \frac{P_o - P_e}{1 - P_e}
 $$
+
 *Trong đó:*
 - $P_o$: Tỷ lệ đồng thuận quan sát được (Observed Agreement).
 - $P_e$: Tỷ lệ đồng thuận ngẫu nhiên (Expected Agreement).
 
 **Kappa trung bình (Average Pairwise Kappa):**
+
 $$
 \bar{\kappa} = \frac{\kappa_{1,2} + \kappa_{1,3} + \kappa_{2,3}}{3}
 $$
